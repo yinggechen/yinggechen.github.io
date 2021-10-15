@@ -1,0 +1,53 @@
+
+body {
+
+	background-color:#072BB8;
+}
+
+
+img {
+	width: 50%;
+	position: fixed;
+	bottom: 150px;
+	right: 300px;
+
+}
+
+.lyingflat:hover{
+	width:550px;
+	margin-left: -225px;
+	transition: 2s;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+  }
+
+  .liedown:hover .image {
+	opacity: 0.3;
+  }
+  
+  .nextpage a {
+	text-decoration:none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 80px;
+	border: 3px;
+	border-style: solid;
+			
+  }
+  
+  .nextpage a:hover {
+	color:#072BB8;
+	text-decoration: underline;
+  }
